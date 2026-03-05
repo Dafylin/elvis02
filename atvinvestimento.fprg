@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="atvinvestimento"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-26 12:26:17 p.m."/>
+        <attribute name="created" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDItMjY7MTE6Mzc6NTUgYS5tLjsyNDM0"/>
+        <attribute name="edited" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDItMjY7MTI6MjY6MTcgcC5tLjs0OzI1NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c, j, t, taxa, montante" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o valor do dep&#243;sito&quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;Informe o tempo de rendimento&quot;" newline="True"/>
+            <input variable="t"/>
+            <output expression="&quot;Informe o percentual de juros&quot;" newline="True"/>
+            <input variable="taxa"/>
+            <assign variable="j" expression="taxa/100"/>
+            <assign variable="montante" expression="c*(1+j) ^ t"/>
+            <output expression="&quot;Seu montante final ser&#225; de &quot;" newline="False"/>
+            <output expression="montante" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

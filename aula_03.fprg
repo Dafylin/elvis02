@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="aula_03"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 12:12:27 p.m."/>
+        <attribute name="created" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDItMTk7MTE6NDQ6NDAgYS5tLjsyNDI4"/>
+        <attribute name="edited" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDItMTk7MTI6MTI6MjcgcC5tLjsxOzI1NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="soma, n1, n2, n3, n4, n5, n6" type="Real" array="False" size=""/>
+            <output expression="&quot;Infrome a nota do 1&#176; Bimestre&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Infrome a nota do 2&#176; Bimestre&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Infrome a nota do 3&#176; Bimestre&quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;Infrome a nota do 4&#176; Bimestre&quot;" newline="True"/>
+            <input variable="n4"/>
+            <output expression="&quot;Infrome a nota do 5&#176; Bimestre&quot;" newline="True"/>
+            <input variable="n5"/>
+            <output expression="&quot;Infrome a nota do 6&#176; Bimestre&quot;" newline="True"/>
+            <input variable="n6"/>
+            <assign variable="soma" expression="(n1+n2+n3+n4+n5+n6)"/>
+            <if expression="(soma &lt;40)">
+                <then>
+                    <output expression="&quot;Abaixo da media&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Atingiu a media&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="soma" newline="True"/>
+            <if expression="(soma%2=0)">
+                <then>
+                    <output expression="&quot;N&#250;mero par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#250;mero impar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

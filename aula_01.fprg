@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="aula_01"/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 10:37:02 a.m."/>
+        <attribute name="created" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDItMTk7MDk6NDk6MzIgYS5tLjsyNDQx"/>
+        <attribute name="edited" value="QWx1bm87TEFCLTAyLTA1OzIwMjYtMDItMTk7MTA6Mzc6MDIgYS5tLjsxOzI1MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <output expression="&quot;Quanto &#233; 2+2/2&quot;" newline="True"/>
+            <assign variable="N" expression="(2+2)/2"/>
+            <output expression="N" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
